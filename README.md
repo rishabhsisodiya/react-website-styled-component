@@ -1,12 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+For any reference you can refer doc file in docs folder and recreate the project and learn
 ## To use this App
 
-Download this repository and go to app directory
+Download this repository and go to project directory
 
 ### `npm install`
-
-For any reference you can refer docs folder
 
 ## Available Scripts
 
