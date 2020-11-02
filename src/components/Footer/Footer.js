@@ -91,9 +91,7 @@ const Footer= () => {
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
-              href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
+              href='/'
               rel='noopener noreferrer'
               target='_blank'
               aria-label='Youtube'

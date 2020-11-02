@@ -6,7 +6,7 @@ import {
   Nav,
   NavbarContainer,
   NavBtnLink,
-  NavIcon,
+  // NavIcon,
   NavItem,
   NavItemBtn,
   NavLinks,
@@ -19,7 +19,7 @@ const Navbar = () => {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  // const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -40,8 +40,8 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <NavIcon />
-            ULTRA
+            {/* <NavIcon /> */}
+            <img src="https://majesteamarketing.com/MJTWHITESVG.svg" alt="company logo"/>
           </NavLogo>
           <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}

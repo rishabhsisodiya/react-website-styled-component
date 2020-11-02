@@ -4,10 +4,10 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  topLine: 'NamasTEA! ☕',
+  headline: 'You got Business? We got your back! ',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+    'Do you have a world changing idea but do not know how to begin? ',
   buttonLabel: 'Get Started',
   imgStart: '',
   img: require('../../images/svg-1.svg'),
