@@ -6,7 +6,7 @@ import {
   Nav,
   NavbarContainer,
   NavBtnLink,
-  // NavIcon,
+  NavIcon,
   NavItem,
   NavItemBtn,
   NavLinks,
@@ -40,8 +40,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            {/* <NavIcon /> */}
-            <img src="https://majesteamarketing.com/MJTWHITESVG.svg" alt="company logo"/>
+            <NavIcon />
           </NavLogo>
           <MobileIcon onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
